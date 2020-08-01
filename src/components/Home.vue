@@ -4,7 +4,7 @@
     <el-header>
       <div>
         <img src="../assets/agul.jpg" alt width="60" height="60" />
-        <span>agulCulb后台管理系统</span>
+        <span>agulClub后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>
