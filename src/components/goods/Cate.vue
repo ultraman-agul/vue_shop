@@ -159,7 +159,8 @@ export default {
             cascaderProps: {
                 value: 'cat_id',
                 label: 'cat_name',
-                children: 'children'
+                children: 'children',
+                expandTrigger: 'hover'
             },
             // 编辑分类对话框显示和隐藏
             editDialogVisible: false,
@@ -227,7 +228,6 @@ export default {
                 this.addCateForm.cat_pid = 0
                 this.addCateForm.cat_level = 0
             }
-            this.$refs.addCateFormRef.dropDownVisible = false
         },
         // 提交添加分类
         async addCate() {
